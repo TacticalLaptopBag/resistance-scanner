@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "resistance-scanner",
+  "description": "An Extension.js example.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com",
+    "url": "https://yourwebsite.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.3.3",
+    "extension": "latest"
+  },
+  "scripts": {
+    "dev": "extension dev",
+    "dev:firefox": "extension dev --browser firefox",
+    "dev:chrome": "extension dev --browser chrome",
+    "dev:edge": "extension dev --browser edge",
+    "start": "extension start",
+    "build": "extension build",
+    "build:firefox": "extension build --browser firefox",
+    "build:chrome": "extension build --browser chrome",
+    "build:edge": "extension build --browser edge"
+  },
+  "dependencies": {}
+}
