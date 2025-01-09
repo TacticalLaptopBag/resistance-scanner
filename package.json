@@ -20,7 +20,7 @@
     "dev:edge": "extension dev --browser edge",
     "start": "extension start",
     "build": "extension build",
-    "build:firefox": "extension build --browser firefox",
+    "build:firefox": "extension build --browser firefox && ./firefox_post-process.js",
     "build:chrome": "extension build --browser chrome",
     "build:edge": "extension build --browser edge"
   },
